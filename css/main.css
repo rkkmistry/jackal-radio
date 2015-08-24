@@ -1,0 +1,46 @@
+body {
+  font-family: 'Arvo', serif;
+/*  background: url(../img/jackal3.jpg);*/
+/*
+  background:  linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ), url(../img/jackal3.jpg);
+*/
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 20px 0;
+  color: white;
+  width: 100%;
+  margin: 10% auto;
+  text-align: center;
+}
+
+button {
+  margin: 20px 0; 
+  padding: 15px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: "Arvo", serif;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0 0 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0 0 15px;
+}
+
+@media (min-width: 480px) {
+
+}
